@@ -17,8 +17,8 @@
 .modalClose {
 	cursor: pointer;
 	font-size: 2rem;
-	height: 1rem;
-	width: 1rem;
+	height: 2rem;
+	width: 2rem;
 	position: absolute;
 	top: 1.25rem;
 	right: 1.5rem;
@@ -28,8 +28,8 @@
 .modalClose::after {
 	content: '';
 	position: absolute;
-	width: 1.25rem;
-	height: 1.5px;
+	width: 1.5rem;
+	height: 1.75px;
 	background-color: #000;
 	transform: rotate(45deg);
 	transition: background-color 0.3s ease;
